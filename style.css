@@ -1,0 +1,175 @@
+@charset "utf-8";
+/*
+Theme Name: 163pinglun
+Theme URI: http://www.163pinglun.com
+Description: 仅用于163pinglun.com
+Author: zhaofuyun <zhaofuyun202@gmail.com>
+Version: 1.0 
+*/
+
+/*重置*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0; padding:0;}
+body,button,input,select,textarea{font:12px/1.5 '微软雅黑', arial, sans-serif;}
+body{background-color:#fff; color:#333;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,em{font-style:normal;}
+small{font-size:12px;}
+ul,ol{list-style:none;}
+a{color:#333; text-decoration:none; outline:0;
+}a:hover{text-decoration:underline; transition:color 130ms ease-in-out; -moz-transition:color 130ms ease-in-out; -webkit-transition:color 130ms ease-in-out; -o-transition:color 130ms ease-in-out;}
+legend{color:#000;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;}
+input,textarea {padding:5px; border:1px solid #ccc; background-color:#fff; outline:0;}
+table{border-collapse:collapse; border-spacing:0;}
+caption,th{text-align:left; font-weight:normal;}
+
+/*浮动*/
+.left{float:left;}
+.right{float:right;}
+.clearfix:after{content:"."; display:block; clear:both; height:0; font-size:0; visibility:hidden;}
+.clearfix{zoom:1;}
+
+.wrapper {width:980px; margin:0 auto;}
+#header {margin-bottom:40px; padding:18px 0; border-bottom:4px solid #1ba1e2;}
+#site-title {position:relative;}
+#site-description {margin-top:15px; padding:5px 0 0 105px; font-size:14px;}
+.widget_rss {text-align:right;}
+.widget_rss a {display:inline-block; margin-bottom:8px; padding:0 5px; background-color:#1BA1E2; color:#fff; line-height:30px; font-size:14px;}
+.widget_rss a:hover {text-decoration:none;}
+#s {float:left; width:170px; height:18px; padding-left:20px; border-right:0; background:url(images/google_favicon.png) no-repeat 2px center; font-size:14px;}
+#searchsubmit {height:30px; padding:0 5px; border:1px solid #ccc; border-left:0; background-color:#ccc; cursor:pointer;}
+#searchsubmit:hover {border-color:#249FD9; background-color:#249FD9; color:#fff;}
+
+.submit-form-wrap {background-color:#1ba1e2;}
+.submit-form {width:540px; margin-bottom:30px; padding:15px 0 20px 0;}
+.submit-form-hd {color:#fff; font-size:18px; font-weight:normal;}
+.tip {text-align:right;}
+.tip-bd {color:#EDDC96; line-height:normal;}
+.field {font-size:14px;}
+textarea.field {display:block; width:528px; height:65px; margin-bottom:10px; overflow:hidden; resize:none;}
+input.field {width:130px; height:18px; margin-right:20px;}
+.logged-in-as {line-height:28px;}
+.logged-in-as a {color:#fff;}
+.submit-form button {width:78px; height:28px; border:1px solid #eee; background-color:#000; color:#fff; font-size:14px; cursor:pointer;}
+.submit-form button:active {background-color:#FFF; color:#000;}
+.submit-form .disabled {cursor:wait;}
+.wait {margin:1px 5px 0 0;}
+
+#main {margin-top:40px; min-height:350px; height:auto !important; height:350px;}
+#container {float:left; width:100%; margin-right:-320px;}
+#content {margin-right:320px;}
+#primary {float:right; width:300px; overflow:hidden;}
+.post {position: relative; margin-bottom:30px;}
+.post a { position: relative; z-index: 10;}
+.post > a {position: absolute; z-index: 1; left: 0; top: 0; width: 100%; height: 100%;}
+.post-list .post {padding:10px; background-color:#eee;}
+.post-list .post:hover {outline: 1px solid #1ba1e2;}
+.entry-title {margin-bottom:5px; color:#999; font-size:18px; font-weight:normal;}
+.entry-title a {color:#333;}
+.post a:hover {color:#1ba1e2; text-decoration:underline;}
+.continue {color:#1ba1e2; white-space:nowrap;}
+.gt {font-family:simsun;}
+.entry-meta {color:#999; font-style:italic; text-align:right;}
+.author a {color:#999; text-decoration:underline;}
+.highlight {color:#e51400;}
+
+.wp-pagenavi {font-size:0; text-align:right;}
+.wp-pagenavi a, .wp-pagenavi span {display:inline-block; margin: 0 0 5px 10px; padding:12px 19px 0 4px; background-color:#ccc; font-size:12px;}
+.wp-pagenavi span {padding-right:4px; background-color:#fff;}
+.wp-pagenavi a:hover {outline:1px solid #1ba1e2; text-decoration:none;}
+.wp-pagenavi .current {padding-right:19px; background-color:#1ba1e2; color:#fff;}
+
+.commentlist li {margin-bottom:30px; padding:10px; background-color:#f1f1f1;}
+.commentlist li:last-child {margin-bottom:0; border-bottom:0;}
+.comment-author {float:left;}
+.comment-author, .comment-author a {color:#1e50a2;}
+.comment-author .ip, .comment-author .cGray {color:#666;}
+.comment-awaiting-moderation, .comment-meta {float:right; color:#666;}
+.comment-awaiting-moderation {color:#e51400;}
+.comment-meta a {color:#666; text-decoration:underline;}
+.comment-meta a:hover {color:#1ba1e2;}
+.tie-content {clear:both; padding-top:5px; font-size:14px;}
+.commentBox {padding:3px; background:#ffffee; border:1px solid #999; overflow:hidden; margin-bottom:12px; word-wrap:break-word;}
+.midOfCommentBox {border-top:0; margin-bottom:3px;}
+.commentInfo {position:relative; margin:0 3px; line-height:18px; height:20px; overflow:hidden; font-size:12px;}
+.floorCount {float:right; color:#666;}
+p.content {margin:0 3px;}
+
+.navigation a, .widget li a, tfoot a {display:inline-block; padding-left:34px; background:url(images/bullet.png) no-repeat 5px 4px; font-size:14px; line-height:30px; white-space:nowrap;}
+.navigation a:hover, .widget li a:hover, tfoot a:hover {background-position:5px -29px; color:#1ba1e2; text-decoration:none;}
+.nav-previous a {padding-left:29px; background-position:0 -95px; color:#1BA1E2;}
+.nav-previous a:hover {background-position:0 -62px; color:#333;}
+.nav-next a {padding:0 29px 0 0; background-position:right -29px; color:#1BA1E2;}
+.nav-next a:hover {background-position:right 4px; color:#333;}
+
+.widget {margin-bottom:30px; background-color:#FFF;}
+.widgettitle {margin-bottom:5px; color:#999; font-size:18px; font-weight:normal;}
+.widget li {font-size:14px; line-height:30px;}
+
+.tagcloud a:hover {color:#1ba1e2;}
+
+.fixed {position:fixed; top:25px;}
+
+.widget_calendar .widgettitle {height:0; margin:0; overflow:hidden;}
+#wp-calendar {width:302px; margin-left:-1px; color:#bebebe; font-size:14px;}
+#wp-calendar caption {padding-bottom:5px; color:#999; font-size:18px;}
+#wp-calendar tbody td {width:42px; height:42px; border:1px solid #bebebe; vertical-align:bottom;}
+#wp-calendar tbody td a {display:block; width:37px; height:18px; padding:24px 0 0 5px; background-color:#1ba1e2; color:#fff; line-height:18px;}
+#wp-calendar tbody td a:hover {text-decoration:none;}
+#prev, #next {padding:6px 1px;}
+#prev a {background-position:0 -62px; color:#333;}
+#prev a:hover {background-position:0 -95px; color:#1BA1E2;}
+#prev a:after,
+#next a:after {content: '月';}
+#next {text-align:right;}
+#next a {padding: 0 34px 0 0; background-position: right 4px;}
+
+#footer {margin:40px 0; padding:10px; border-top:4px solid #1ba1e2;}
+#footer a {color:#1ba1e2;}
+
+@media all and (max-width:980px){
+	.wrapper {width: auto; margin: 0 10px;}
+	.header-aside {margin-top: -25px;}
+	.submit-form-wrap {display:none;}
+	#site-description {clear: left; padding: 0;}
+	#container {float:none; margin-right:0;}
+	#content {margin-right:0; overflow:hidden;}
+	#primary {float:none; width:auto;}
+	#wp-calendar {width:100%;}
+	#wp-calendar tbody td, #wp-calendar tbody td a {width:auto;}
+	.tagcloud a {margin: 0 5px;}
+	.navigation {margin-bottom:30px;}
+}
+
+/*metro ui color scheme: http://www.mikeyzm.com/metro-ui-color-scheme.html*/
+.tag-link-3 {color:#FF0097;}
+.tag-link-4 {color:#F09609;}
+.tag-link-5 {color:#FF0097;}
+.tag-link-6 {color:#00ABA9;}
+.tag-link-7 {color:#339933;}
+.tag-link-8 {color:#A200FF;}
+.tag-link-9 {color:#1BA1E2;}
+.tag-link-10 {color:#F09609;}
+.tag-link-11 {color:#E51400;}
+.tag-link-12 {color:#8CBF26;}
+.tag-link-13 {color:#00ABA9;}
+.tag-link-18 {color:#1BA1E2;}
+.tag-link-19 {color:#00ABA9;}
+.tag-link-23 {color:#339933;}
+.tag-link-30 {color:#A200FF;}
+.tag-link-32 {color:#F09609;}
+.tag-link-33 {color:#E51400;}
+.tag-link-35 {color:#E51400;}
+.tag-link-36 {color:#E671B8;}
+.tag-link-37 {color:#FF0097;}
+.tag-link-38 {color:#339933;}
+.tag-link-39 {color:#F09609;}
+.tag-link-40 {color:#00ABA9;}
+.tag-link-43 {color:#A200FF;}
+.tag-link-44 {color:#E51400;}
+.tag-link-45 {color:#E51400;}
+
+.uv {font-family:Georgia;}
+.single-uv {color:#999;}
+.single-uv .uv {color:#CC1B1B;}

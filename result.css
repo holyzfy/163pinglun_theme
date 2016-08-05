@@ -1,0 +1,24 @@
+@charset "utf-8";
+#main {min-height:350px; height:auto !important; height:350px;}
+.result {padding:10px; background-position:10px 9px; background-repeat:no-repeat;}
+.result-hd {padding-left:44px; color:#fff; font-size:18px; font-weight:normal;}
+.result-bd {position: relative; overflow: hidden; text-indent:44px;}
+.result-bd a {
+	color: #fff;
+}
+.continue {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #8cbf26;
+	opacity: 0;
+	filter:alpha(opacity=0);
+}
+.succ {background-image:url(images/succ.png); background-color:#8cbf26;}
+.warning {background-image:url(images/warning.png); background-color:#f09609;}
+
+.submit-form {padding: 15px; background:#1BA1E2 url(images/fatal.png) no-repeat 10px 9px;}
+.submit-form-hd {margin-bottom:12px; padding-left:44px;}
+strong.error {width:430px; color:#fff; text-align:left;}

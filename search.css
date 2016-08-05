@@ -1,0 +1,11 @@
+@charset "utf-8";
+.resultHd {font-size:20px;}
+.result em {font-style:italic; font-size:14px;}
+.reply {display:inline-block; padding:10px; background-color:#eee; color:#666;}
+.reply:hover {text-decoration:none; color:#000;}
+
+/*submitForm*/
+.submitForm {padding:30px 10px 10px 10px; background-color:#eee;}
+.profile {width:48px; padding:1px; border:1px solid #000; background-color:#FFF;}
+.submitFormBd {display:inline; margin-left:12px;}
+.submitFormBd textarea {width:500px; height:80px; padding:2px; border:1px solid #000;}
