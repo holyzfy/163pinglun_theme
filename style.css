@@ -120,8 +120,6 @@ p.content {margin:0 3px;}
 #prev, #next {padding:6px 1px;}
 #prev a {background-position:0 -62px; color:#333;}
 #prev a:hover {background-position:0 -95px; color:#1BA1E2;}
-#prev a:after,
-#next a:after {content: '月';}
 #next {text-align:right;}
 #next a {padding: 0 34px 0 0; background-position: right 4px;}
 
