@@ -4,7 +4,7 @@ $link = get_page_link($about->ID);
 ?>
 <div id="footer">
     <div class="wrapper clearfix">
-        <div class="left">&copy; 163pinglun.com 2011 - <?php echo date("Y"); ?> Some Rights Reserved. 闽ICP备13009590号</div>
+        <div class="left">&copy; 163pinglun.com 2011 - <?php echo date("Y"); ?> Some Rights Reserved. 京ICP备14037201号-2</div>
             <div class="right"><a href="<?php echo $link ?>">关于</a> | <?php wp_register('',' | '); ?><?php wp_loginout(); ?></div>
     </div>
 </div>
