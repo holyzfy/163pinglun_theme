@@ -52,7 +52,7 @@ if(!empty($post_description) && !empty($keywords)):
 endif;
 ?>
 
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>?ver=160328" type="text/css" />
+<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>?ver=160810" type="text/css" />
 
 <?php
 if(is_search()) {
