@@ -106,10 +106,10 @@ p.content {margin:0 3px;}
 .widget {margin-bottom:30px; background-color:#FFF;}
 .widgettitle {margin-bottom:5px; color:#999; font-size:18px; font-weight:normal;}
 .widget li {font-size:14px; line-height:30px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.widget.fixed {width: 300px;  position:fixed; top: 35px;}
 
 .tagcloud a:hover {color:#1ba1e2;}
 
-.fixed {position:fixed; top:25px;}
 
 .widget_calendar .widgettitle {height:0; margin:0; overflow:hidden;}
 #wp-calendar {width:302px; margin-left:-1px; color:#bebebe; font-size:14px;}
