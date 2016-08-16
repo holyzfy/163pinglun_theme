@@ -142,7 +142,6 @@ class WP_Widget_Random_Posts extends WP_Widget {
 
  		$posts = get_posts(array(
 			'posts_per_page' => $number,
-			'numberposts' => 1,
 			'orderby' => 'rand',
 			'post_type' => 'post',
 			'post_status' => 'publish'
